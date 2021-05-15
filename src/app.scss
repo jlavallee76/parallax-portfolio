@@ -1,0 +1,32 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+$tablet-width: 800px;
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) {
+        @content
+    }
+}

@@ -1,0 +1,47 @@
+@import '../../app.scss';
+@import '../../colors.scss';
+
+.projects {
+    background: $vapor-teal-vibrant;
+}
+
+.project-container a img {
+    border-radius: 1em;
+    margin-bottom: 3em;
+}
+
+.featured {
+    position: relative;
+}
+.featured::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: $vapor-teal-muted;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $vapor-pink-vibrant;
+    letter-spacing: .3em;
+    font-size: .85em;
+}
+
+.featured-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.featured-desc {
+    font-size: .80em;
+    margin-bottom: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}

@@ -1,0 +1,18 @@
+<svg width="1529" height="1557" viewBox="0 0 1529 1557">
+  <g id="hero_design" data-name="hero design" transform="translate(-3198 -757)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="388" height="388" rx="53" transform="translate(3951 757)" fill="#d6224f"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="388" height="388" rx="53" transform="translate(3586 1145)" fill="#fff"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="388" height="388" rx="53" transform="translate(4339 1145)" fill="#01a7a7"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="388" height="388" rx="53" transform="translate(3198 1533)" fill="#2d2548"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="388" height="388" rx="53" transform="translate(3951 1533)" fill="#d6224f"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="388" height="388" rx="53" transform="translate(3586 1926)" fill="#fff"/>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(3977 1171)" fill="#2d2548" stroke="#707070" stroke-width="1">
+      <circle cx="168" cy="168" r="168" stroke="none"/>
+      <circle cx="168" cy="168" r="167.5" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(3612 1559)" fill="#01a7a7" stroke="#707070" stroke-width="1">
+      <circle cx="168" cy="168" r="168" stroke="none"/>
+      <circle cx="168" cy="168" r="167.5" fill="none"/>
+    </g>
+  </g>
+</svg>

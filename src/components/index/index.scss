@@ -1,0 +1,67 @@
+@import '../../app.scss';
+@import '../../colors.scss';
+
+.navigation-container {
+    background-color: $main-color;
+
+    a {
+        color: whitesmoke;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        color: $vapor-orange-vibrant;
+        font-weight: bold;
+
+        @include tablet {
+            font-size: 1.6em;
+        }
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+.social-header, .hero-design {
+    display: none;
+}
+
+.hero {
+    display: grid;
+    text-align: center;
+    padding: 4em;
+    background-color: $vapor-pink-vibrant;
+    color: white;
+}
+
+.meet {
+    display: flex;
+    margin: 2em auto;
+    width: 200px;
+    font-weight: bold;
+    color: $main-color;
+
+    span {
+        margin-right: .5em;
+    }
+}
+
+.scroll {
+    width: 30px;
+    height: 3em;
+    margin-top: 0;
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0;
+}
