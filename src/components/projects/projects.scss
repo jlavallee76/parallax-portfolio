@@ -63,3 +63,10 @@
         margin-top: 1em;
     }
 }
+
+@include desktop {
+    .projects img {
+        float: right;
+        max-width: 800px;
+    }
+}

@@ -25,6 +25,7 @@ img {
 
 $tablet-width: 800px;
 $desktop-width: 1050px;
+$largee-desktop-width: 1250px;
 
 @mixin tablet {
     @media (min-width: #{$tablet-width}) {
@@ -33,7 +34,19 @@ $desktop-width: 1050px;
 }
 
 @mixin desktop {
-    @media (min-width: #{$tablet-width}) {
+    @media (min-width: #{$desktop-width}) {
         @content;
+    }
+}
+
+@mixin lrg-desktop {
+    @media (min-width: #{$largee-desktop-width}) {
+        @content;
+    }
+}
+
+@include lrg-desktop {
+    section {
+        padding: 10em 10em 4em 10em;
     }
 }
