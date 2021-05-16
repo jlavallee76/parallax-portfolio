@@ -24,17 +24,20 @@ header {
     .logo {
         color: $vapor-pink-vibrant;
         font-weight: bold;
-        line-height: 1;
+        line-height: 2;
+        
+        h1 {
+            font-size: 1.5em;
+        }
     }
 
     ul {
         display: flex;
 
         a {
-            font-size: 0.7em;
+            font-size: .9em;
             display: block;
             padding: 0em 1em 0em 0em;
-            color: green;
         }
     }
 }
@@ -49,6 +52,38 @@ header {
     padding: 4em;
     background-color: $vapor-pink-vibrant;
     color: white;
+
+    h1 {
+        color: $main-color;
+    }
+
+    h3 {
+        padding-bottom: 2em;
+    }
+
+    span {
+        color: $main-color;
+    }
+}
+
+.content {
+    h3 {
+        a {
+            color: $main-color;
+        }
+    }
+}
+.ityped-cursor {
+    animation: blink 1.25s infinite;
+}
+@keyframes blink {
+    60% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
 }
 
 .circle {
@@ -95,14 +130,23 @@ header {
 
         .content {
             background: $vapor-pink-vibrant;
-            padding: 6em 8em 6em 4em;
+            padding: 6em 8em 0em 4em;
             text-align: left;
 
             h1 {
-                font-size: 3em;
+                font-size: 5em;
                 line-height: 1.2em;
-                margin-bottom: .5em;
+                margin-bottom: .2em;
             }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            h3 {
+                font-size: 1.4em;
+            }
+
         }
     }
 
@@ -169,8 +213,8 @@ header {
             }
 
             img {
-                width: 25px;
-                height: 25px;
+                width: 35px;
+                height: 35px;
                 border-radius: 0px;
             }
         }
@@ -179,6 +223,7 @@ header {
 
 @include lrg-desktop {
     .logo {
+        font-size: 10em;
         padding-left: 2.5em;
     }
 
@@ -187,6 +232,6 @@ header {
     }
 
     .hero .content {
-        padding: 16em 18em 16em 10em;
+        padding: 16em 18em 0em 10em;
     }
 }
