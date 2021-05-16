@@ -66,7 +66,7 @@ export default function Index() {
                     <ul>
                         <li ><a href="https://www.instagram.com/yoshigrams"><img className="social-logos" src="./assets/icons/instagram-1.svg" alt="instagram" /></a></li>
                         <li ><a href="https://www.linkedin.com/in/josh-lavallee/"><img className="social-logos" src="./assets/icons/linkedin-icon-plain.svg" alt="linkedin" /></a></li>
-                        <li ><a href="https://github.com/jlavallee76"><img className="social-logos" src="./assets/icons/github-1.svg" alt="github" /></a></li>
+                        <li ><a href="https://github.com/jlavallee76"><img className="social-logos" src="./assets/icons/github-2.svg" alt="github" /></a></li>
                     </ul>
                 </div>
             </div>
