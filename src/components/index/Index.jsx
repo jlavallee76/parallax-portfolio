@@ -7,7 +7,6 @@ export default function Index() {
     let timeline = gsap.timeline();
     const textRef = useRef();
     useEffect(() => {
-
         init(textRef.current, {
             showCursor: true,
             backDelay: 2000,
@@ -45,7 +44,7 @@ export default function Index() {
             duration: .8,
             ease: Back.easeOut.config(1.2)
         })
-    }, [])
+    })
 
     return (
         <div id="index" className="index">
