@@ -2,6 +2,24 @@
 @import '../../colors.scss';
 
 .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: $main-color;
-    height: 20vh;
+    height: 14vh;
+    width: 100%;
+
+    ul {
+        display: flex;
+        
+        li {
+            padding: .8em;
+        }
+
+        img {
+            border-radius: 0;
+            width: 30px;
+            height: 30px;
+        }
+    }
 }
