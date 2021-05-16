@@ -45,3 +45,21 @@
     line-height: 1.4em;
     font-weight: 500;
 }
+
+@include tablet {
+    .project-container {
+        display: grid;
+        grid-template-columns: 40% auto;
+        text-align: left;
+    }
+
+    .project-left {
+        display: grid;
+        place-content: center;
+    }
+
+    a {
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+}

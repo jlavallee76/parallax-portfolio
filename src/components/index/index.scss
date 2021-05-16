@@ -6,29 +6,35 @@
 
     a {
         color: whitesmoke;
+        transition: all 1s ease;
+        font-weight: 500;
+
+        &:hover {
+            color: $vapor-pink-vibrant;
+        }
     }
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    align-items: center;
+    padding: 1.6em;
 
     .logo {
-        color: $vapor-orange-vibrant;
+        color: $vapor-pink-vibrant;
         font-weight: bold;
-
-        @include tablet {
-            font-size: 1.6em;
-        }
+        line-height: 1;
     }
 
     ul {
         display: flex;
 
         a {
+            font-size: 0.7em;
             display: block;
-            padding: 0 1em;
+            padding: 0em 1em 0em 0em;
+            color: green;
         }
     }
 }
@@ -61,7 +67,88 @@ header {
     width: 30px;
     height: 3em;
     margin-top: 0;
-    border: 1px solid red;
     padding: 0px;
     margin: 0;
+}
+
+@include desktop {
+    .hero {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+        height: 50vh;
+
+        .content {
+            background: $vapor-pink-vibrant;
+            padding: 6em 8em 6em 4em;
+            text-align: left;
+
+            h1 {
+                font-size: 3em;
+                line-height: 1.2em;
+                margin-bottom: .5em;
+            }
+        }
+    }
+
+    .meet {
+        margin: unset;
+        margin-bottom: 2em;
+    }
+
+    .navigation-container {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+
+        header {
+            background: $main-color;
+
+            .logo {
+                font-size: 1.4em;
+                padding-bottom: .6em;
+            }
+        }
+    }
+
+    header {
+        padding: 1em 1em 1em 2em;
+
+        ul {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            li {
+                padding-left: 0px;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    .social-header {
+        display: flex;
+        justify-content: center;
+        padding: 0em 6em 0em 0em;
+
+        ul {
+            display: flex;
+            align-items: center;
+            float: right;
+            margin-left: 8em;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+            }
+
+            img {
+                width: 25px;
+                height: 25px;
+                border-radius: 0px;
+            }
+        }
+    }
 }

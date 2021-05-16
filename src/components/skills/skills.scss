@@ -35,4 +35,10 @@
     .skills {
         margin-top: -5em;
     }
+
+    .skills-container ul{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1em;
+    }
 }

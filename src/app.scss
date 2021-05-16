@@ -24,9 +24,16 @@ img {
 }
 
 $tablet-width: 800px;
+$desktop-width: 1050px;
 
 @mixin tablet {
     @media (min-width: #{$tablet-width}) {
-        @content
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$tablet-width}) {
+        @content;
     }
 }
