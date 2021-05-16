@@ -51,6 +51,20 @@ header {
     color: white;
 }
 
+.circle {
+    animation: circleAnimation 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnimation {
+    from {
+        transform: translate(727px, 1880px);
+    }
+
+    to {
+        transform: translate(727px, 1970px);
+    }
+}
+
 .meet {
     display: flex;
     margin: 2em auto;

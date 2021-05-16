@@ -40,9 +40,7 @@ export default function Index() {
                                 <rect width="151" height="253" rx="75.5" stroke="none"/>
                                 <rect x="7" y="7" width="137" height="239" rx="68.5" fill="none"/>
                             </g>
-                            <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(727 1873)" fill="#fff" stroke="#707070" stroke-width="1">
-                                <circle cx="43.5" cy="43.5" r="43.5" stroke="none"/>
-                            </g>
+                                <circle className="circle" d="Ellipse_1" data-name="Ellipse 1" transform="translate(727 1873)" fill="#fff" stroke="#707070" stroke-width="4" cx="43.5" cy="43.5" r="43.5" stroke="none"/>
                         </g>
                     </svg>
                 </div>
