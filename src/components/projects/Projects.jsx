@@ -11,10 +11,10 @@ export default function Projects() {
                 trigger: '.transition4',
                 start: "top center"
             },
-            y: 50,
+            x: -50,
             opacity: 0,
-            duration: 1.4,
-            stagger: .8
+            duration: 1.2,
+            stagger: .6
         })
     }, [])
     return (

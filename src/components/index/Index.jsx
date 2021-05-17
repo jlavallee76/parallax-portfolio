@@ -29,7 +29,7 @@ export default function Index() {
             ease: Power3.easeOut,
             duration: 2
 
-        }, "-=2")
+        }, "-=1")
 
         timeline.from('.hero-design', {
             opacity: 0,
@@ -74,7 +74,7 @@ export default function Index() {
                 <div className="content">
                     <h2 className="stagger1">Welcome, I'm</h2>
                     <h1 className="stagger1">Josh Lavallee.</h1>
-                    <h3>I am a <span ref={textRef}></span></h3>
+                    <h3 className="stagger1">I am a <span ref={textRef}></span></h3>
 
                     <svg className="scroll stagger1" width="151" height="253" viewBox="0 0 151 253">
                         <g id="scroll" transform="translate(-695 -1843)">

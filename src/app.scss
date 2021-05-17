@@ -7,6 +7,11 @@
     text-decoration: none;
     list-style-type: none;
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+      overflow: scroll;
 }
 
 body {
@@ -26,7 +31,7 @@ img {
 
 $tablet-width: 800px;
 $desktop-width: 1050px;
-$largee-desktop-width: 1250px;
+$large-desktop-width: 1250px;
 
 @mixin tablet {
     @media (min-width: #{$tablet-width}) {
@@ -41,7 +46,7 @@ $largee-desktop-width: 1250px;
 }
 
 @mixin lrg-desktop {
-    @media (min-width: #{$largee-desktop-width}) {
+    @media (min-width: #{$large-desktop-width}) {
         @content;
     }
 }
