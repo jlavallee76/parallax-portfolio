@@ -16,7 +16,7 @@ export default function Resume() {
     useEffect(() => {
         gsap.from(".slider", {
             scrollTrigger: {
-                trigger: '.slider',
+                trigger: '.resume',
                 start: "top center"
             },
             y: -50,

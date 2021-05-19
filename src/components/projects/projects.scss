@@ -46,6 +46,15 @@
     font-weight: 500;
 }
 
+.inner {
+    a {
+        transition: all 1s ease;
+        &:hover {
+            color: $vapor-pink-vibrant
+        }
+    }  
+}
+
 @include tablet {
     .project-container {
         display: grid;

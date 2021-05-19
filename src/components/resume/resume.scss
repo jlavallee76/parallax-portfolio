@@ -15,30 +15,11 @@
         position: absolute;
 
         &.left {
-            left: 15px;
+            left: 2%;
         }
 
         &.right {
-            right: 15px;   
-        }
-
-        &.bottom {
-            height: 100px;
-            bottom: 50px;
-
-            width: 100px;
-            animation: arrowBlink 1.25s infinite;
-            color: $main-color;
-
-            @keyframes arrowBlink {
-                60% {
-                    opacity: 1;
-                }
-                
-                100% {
-                    opacity: 0;
-                }
-            }
+            right: 2%;   
         }
     }
 
@@ -76,13 +57,17 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    padding: 25px;
+                    padding: 5px;
                     width: 100%;
                     height: 80%;
                     flex: 4;
 
                     @include desktop {
-                        width: 90%;
+                        width: 30%;
+                        height: 60%;
+                        justify-content: center;
+                        align-items: center;
+
                         flex: 4;
                     }
 
@@ -90,13 +75,15 @@
                         width: 80%;
                         height: 100%;
                         display: flex;
+                        padding-top: 80px;
                         flex-direction: row;
                         align-items: center;
 
                         @include desktop {
                             flex-direction: column;
                             align-items: center;
-                            width: 100%;
+                            justify-content: center;
+                            width: 80%;
                         }
 
                         .imgContainer {
@@ -283,15 +270,16 @@
 
     .arrow {
         height: 50px;
-        width: 50px;  
+        width: 50px;
+        border-radius: 0;  
 
         &.left {
-            margin-left: 80px;
+            margin-left: 2%;
         }
 
         &.right {
-            margin-right: 80px;
-            padding: 0;
+            margin-right: 2%;
+            padding-bottom: 20px;
         }
     }
 }

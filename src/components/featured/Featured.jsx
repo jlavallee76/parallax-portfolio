@@ -23,7 +23,7 @@ export default function Featured() {
                 <div className="inner transition2">
                     <p className="subtitle">Featured Project</p>
                     <a href="https://github.com/jlavallee76/Water-Assessment-Project" className="featured-title">Water Assessment Project</a>
-                    <p className="featured-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <p className="featured-desc">The Water Assessment Project is a mobile application for Android created for the Western Canada Aqua Hacking Challenge. I participated as a group of three to develop the application, which uses satellite imagery to analyze the surface of large bodies of water for algae bloom (or other changes) over a given period. The application's user interface was created using fragments, utilizes MySQL to store images locally and implements a few different libraries, including liquid swipe, why not image carousel and one signal.</p>
                 </div>
             </div>
             <img className="right transition2" src="../assets/projects/appplaceholder.jpg" alt="placeholder" />

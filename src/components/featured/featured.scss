@@ -37,6 +37,13 @@
     font-weight: 500;
 }
 
+a {
+    transition: all 1s ease;
+    &:hover {
+        color: $main-color
+    }
+}
+
 img {
     border-radius: 1em;
 }

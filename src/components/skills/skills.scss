@@ -31,6 +31,35 @@
     margin-bottom: 2em;
 }
 
+.sub-title {
+    margin: 2em 0 1em 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $main-color;
+    letter-spacing: .3em;
+    font-size: .85em;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    .skill-icon {
+        border-radius: 0px;
+        width: 40px;
+        height: 40px;
+        padding: .3em;
+        margin: .1em;
+        transition: all 1s ease;
+
+        &:hover {
+            width: 50px;
+        } 
+    }
+}
+
 @include tablet {
     .skills {
         margin-top: -5em;
@@ -40,5 +69,18 @@
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-gap: 1em;
+
+        
+        .icon-list {
+            display: flex;
+
+            .skill-icon {
+                width: 50px;
+
+                &:hover {
+                    width: 60px;
+                }
+            }
+        }
     }
 }
