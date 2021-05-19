@@ -1,9 +1,6 @@
 import "./resume.scss"
 import { useState } from 'react'
 import { resumeData } from '../../resumeData'
-import { useEffect } from 'react'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Resume() {
     const [currentSlide, setCurrentSlide] = useState(0)
