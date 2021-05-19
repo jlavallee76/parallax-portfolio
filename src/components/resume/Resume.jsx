@@ -11,19 +11,6 @@ export default function Resume() {
         direction === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide -1 : 4) :
         setCurrentSlide(currentSlide < resumeData.length - 1 ? currentSlide + 1 : 0)
     }
-
-    gsap.registerPlugin(ScrollTrigger);
-    useEffect(() => {
-        gsap.from(".slider", {
-            scrollTrigger: {
-                trigger: '.resume',
-                start: "top center"
-            },
-            y: -50,
-            opacity: 0,
-            duration: .8,
-        })
-    }, [])
     return (
         <div className="resume" id="resume">
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
