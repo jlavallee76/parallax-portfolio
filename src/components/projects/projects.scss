@@ -55,6 +55,31 @@
     }  
 }
 
+.icon-list {
+    justify-content: center;
+    margin-bottom: 1em;
+
+    .skill-icon {
+        padding: 10px;
+    }
+
+    @include desktop {
+        justify-content: flex-start;
+    }
+}
+
+.skills-title {
+    color: $main-color;
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+
+    @include desktop {
+        text-align: left;
+    }
+}
+
 @include tablet {
     .project-container {
         display: grid;
