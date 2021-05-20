@@ -40,7 +40,7 @@ export default function Projects() {
                         </ul>
                     </div>
                 </div>
-                <a href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/portfolio.jpg" alt="portfolio" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/portfolio.jpg" alt="portfolio" /></a>
             </div>
 
             {/* <div className="project-container transition4">
@@ -71,7 +71,7 @@ export default function Projects() {
                             
                         </ul>
                 </div>
-                <a href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/crockodile.jpg" alt="crockodile" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/crockodile.jpg" alt="crockodile" /></a>
             </div>
 
             <div className="project-container transition4">
@@ -84,12 +84,12 @@ export default function Projects() {
                         <h3 className="skills-title">Created Using</h3>
                         <ul className="icon-list">
                             <li className="skill-icon"><img src="../assets/icons/android.png" alt="android studio icon" /></li>
-                            <li className="skill-icon"><img src="../assets/icons/java.svg" alt="java icon" /></li>
-                            <li className="skill-icon"><img src="../assets/icons/mysql.svg" alt="mysql icon" /></li>
+                            <li className="skill-icon"><img src="../assets/icons/java.png" alt="java icon" /></li>
+                            <li className="skill-icon"><img src="../assets/icons/mysql.png" alt="mysql icon" /></li>
                         </ul>
                     </div>
                 </div>
-                <a href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/appplaceholder.jpg" alt="placeholder" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/wap.png" alt="placeholder" /></a>
             </div>
         </section>
     )

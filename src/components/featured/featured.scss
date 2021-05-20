@@ -44,9 +44,11 @@ a {
     }
 }
 
-img {
-    border-radius: 1em;
-}
+
+    .right {
+        border-radius: 1em;
+    }
+
 
 @include tablet {
     .featured {
