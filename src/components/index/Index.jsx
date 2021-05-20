@@ -15,12 +15,12 @@ export default function Index() {
             strings: ["developer.", "photographer.", "traveller.", "student.", "sports fan.", "fantasy football legend.", "dog dad.", "gamer.", "skateboarder."]
         })
 
-        timeline.from('.content', {
-            opacity: 0,
-            y: '-30%',
-            duration: 2,
-            ease: Power4.easeOut
-        })
+        // timeline.from('.content', {
+        //     opacity: 0,
+        //     y: '-30%',
+        //     duration: 2,
+        //     ease: Power4.easeOut
+        // })
 
         timeline.from('.stagger1', {
             opactiy: 0,
@@ -29,7 +29,7 @@ export default function Index() {
             ease: Power3.easeOut,
             duration: 2
 
-        }, "-=1")
+        }, "-=2")
 
         timeline.from('.hero-design', {
             opacity: 0,
