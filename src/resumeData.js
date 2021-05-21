@@ -205,7 +205,7 @@ export const resumeData = [
         info: [
             {
                 id: 1,
-                name: "Outstanding Academic Acheivement Award",
+                name: "Outstanding Academic Achievement Award",
                 date: "June 2019",
                 details: [
                     {
