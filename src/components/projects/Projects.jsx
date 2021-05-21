@@ -67,8 +67,7 @@ export default function Projects() {
                             <li className="skill-icon"><img src="../assets/icons/ruby.svg" alt="ruby icon" /></li>
                             <li className="skill-icon"><img src="../assets/icons/rails.svg" alt="rails icon" /></li>
                             <li className="skill-icon"><img src="../assets/icons/stripe-2.svg" alt="stripe icon" /></li>
-                            <li className="skill-icon"><img src="../assets/icons/materialize.svg" alt="stripe icon" /></li>
-                            
+                            <li className="skill-icon"><img src="../assets/icons/tailwind-css-2.svg" alt="tailwind icon" /></li>
                         </ul>
                 </div>
                 <a target="_blank" rel="noreferrer" href="https://github.com/jlavallee76/Water-Assessment-Project"><img src="../assets/projects/crockodile.jpg" alt="crockodile" /></a>
