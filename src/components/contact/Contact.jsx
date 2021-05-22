@@ -4,7 +4,7 @@ import "./contact.scss"
 export default function Contact() {
     return (
         <div className="contact">
-            <form method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
                 <ul class="form-style-1">
                     <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
                     <li>
