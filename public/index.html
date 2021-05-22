@@ -27,6 +27,32 @@
     <title>Josh Lavallee | Developer</title>
   </head>
   <body>
+    <form name="contact" netlify netlify-honeypot="bot-field" action="/" hidden>
+      <li>
+        <label>Full Name <span class="required">*</span></label>
+        <input type="text" name="first name" class="field-divided" />
+        <input type="text" name="lastname" class="field-divided" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="email" class="field-long" />
+    </li>
+    <li>
+        <label>Subject</label>
+        <select name="subject" class="field-select">
+            <option value="Advertise">General</option>
+            <option value="Partnership">Opportunity</option>
+            <option value="General Question">Collaboration</option>
+        </select>
+    </li>
+    <li>
+        <label>Message <span class="required">*</span></label>
+        <textarea name="message" id="message" class="field-long field-textarea"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
