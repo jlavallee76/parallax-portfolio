@@ -3,11 +3,11 @@ import "./contact.scss"
 
 export default function Contact() {
     let handleSubmission = () => {
-        console.log("Handling submission")
+        document.querySelector('cont')
     }
     return (
-        <div className="contact">
-            <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmission}>
+        <div className="contact" id="contact">
+            <form className="contact" name="contact" method="POST" data-netlify="true" onSubmit={handleSubmission}>
                 <input type="hidden" name="form-name" value="contact" />
                 <ul className="form-style-1">
                     <li>
